@@ -35,8 +35,8 @@ const Timer = ({ startDate }) => {
   }, [startDate]);
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-slate-900 text-white">
-      <div className="text-center space-y-4">
+    <div className="flex flex-col items-center justify-center h-screen bg-slate-900 text-white ">
+      <div className="text-center space-y-4 m-10">
         <p className="text-violet-400 text-xl font-medium">
           <span className="text-2xl font-bold"> Time passed since</span> I held
           you close
@@ -61,8 +61,8 @@ const Timer = ({ startDate }) => {
           💖
         </p>
       </div>
-      <footer className="absolute bottom-0 w-full py-4 bg-slate-800 text-center text-white">
-        <p className="text-xl">A lovelope for Ananya from Arnab.</p>
+      <footer>
+        <p className="text-sm">A lovelope for Ananya from Arnab.</p>
       </footer>
     </div>
   );
